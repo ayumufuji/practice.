@@ -1,0 +1,54 @@
+@import url('https://fonts.googleapis.com/css?family=Noto+Serif+JP');
+
+
+
+.goa-back{
+    width: 1350px;
+    height: 1000px; 
+    background: url('../images/road.jpg');
+    background-repeat: no-repeat;
+    opacity: 90%;
+   }
+  
+  
+  #global_navi {
+    opacity: 90%;
+    position: absolute;
+    padding:0px 100px 300px 5px;
+  }
+  
+  #global_navi ul li {
+    display: inline-block;
+    width: 150px;
+    margin-right: 1px;
+    text-align: center;
+  }
+  
+  #global_navi ul li a {
+    display: block;
+    padding: 15px 20px;
+    background-color: transparent;
+    color:  white;
+    text-decoration: none;
+    transition: background-color .2s linear;
+    font-family: 'Noto Serif JP', sans-serif;
+  }
+  
+  
+  #global_navi ul li a:hover {
+    background-color: blue;
+  }
+
+  .coment{
+    position: absolute;
+    top: 100px;
+    left: 200px;
+    font-size: 80px;
+    font-family: 'Noto Serif JP', sans-serif;
+  }
+
+  ul {
+    list-style: none;
+  }
+  
+  

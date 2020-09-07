@@ -1,0 +1,82 @@
+
+@import url('https://fonts.googleapis.com/css?family=Noto+Serif+JP');
+
+.home-back{
+ width: 1350px;
+ height: 800px; 
+ background: url('../images/field.jpg');
+ background-repeat: no-repeat;
+}
+
+#global_navi {
+  opacity: 80%;
+  position: absolute;
+}
+
+#global_navi ul li {
+  display: inline-block;
+  width: 150px;
+  margin-right: 1px;
+  text-align: center;
+}
+
+#global_navi ul li a {
+  display: block;
+  padding: 15px 20px;
+  background-color: transparent;
+  color:  blue;
+  text-decoration: none;
+  transition: background-color .2s linear;
+  font-family: 'Noto Serif JP', sans-serif;
+}
+
+
+#global_navi ul li a:hover {
+  background-color:white;
+}
+
+.wel{
+  position: absolute;
+  top: 100px;
+  left: 100px;
+  font-size: 40px;
+  font-family: 'Noto Serif JP', sans-serif;
+}
+
+ul {
+  list-style: none;
+  height: 0px;
+}
+
+.tit{
+  position: absolute;
+  top:300px;
+  left: 130px;
+  font-size: 50px;
+  font-family: 'Noto Serif JP', sans-serif;
+}
+
+.tbox{
+  position: absolute;
+  top: 100px;
+  right: 100px;
+}
+
+.ex{
+  background-color: white;
+  position: absolute;
+  top:500px;
+  right: 100px;
+  width: 420px;
+  height: 20px;
+  opacity: 60%;
+}
+
+header{
+  height: 800px;
+}
+
+
+
+
+
